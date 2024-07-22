@@ -56,10 +56,10 @@ downloadLink.addEventListener('click', function(event) {
   var tempLink = document.createElement('a');
 
   // Set the href attribute of the temporary link to the URL of the CV file
-  tempLink.href = 'Jescaps Antwi.docx'; // Replace with the actual path to your CV file
+  tempLink.href = 'Jescaps Antwi.pdf'; // Replace with the actual path to your CV file
 
   // Set the download attribute of the temporary link to the desired filename for the downloaded file
-  tempLink.download = 'jescapsantwi-cv.docx'; // Replace with the desired filename for the downloaded file
+  tempLink.download = 'jescapsantwi-cv.pdf'; // Replace with the desired filename for the downloaded file
 
   // Append the temporary link to the document body
   document.body.appendChild(tempLink);
